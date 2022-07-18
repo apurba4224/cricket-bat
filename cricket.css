@@ -1,0 +1,16 @@
+.field {
+    border: 2px solid rebeccapurple;
+    background-color: green;
+    border-radius: 50px;
+
+}
+
+.field:hover .bat {
+    transform: rotate(-60deg);
+    transform-origin: top right;
+}
+
+.ball {
+    height: 60px;
+    width: 60px;
+}
