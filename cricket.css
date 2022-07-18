@@ -1,16 +1,25 @@
 .field {
-    border: 2px solid rebeccapurple;
-    background-color: green;
-    border-radius: 50px;
+    border: 1px solid;
 
 }
 
 .field:hover .bat {
     transform: rotate(-60deg);
     transform-origin: top right;
+
 }
 
 .ball {
-    height: 60px;
-    width: 60px;
+    height: 22px;
+    width: 22px;
+    background-color: #b3223a;
+    border-radius: 10px;
+    position: relative;
+    left: 308px;
+    transition: transform 1s ease-out 0.3s;
+
+}
+
+.field:hover .ball {
+    transform: translate(600px);
 }
